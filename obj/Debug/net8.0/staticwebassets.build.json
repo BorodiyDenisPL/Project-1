@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "Hash": "9yw+kfeLOVrvj50QkBsNOxcJnE6ofB0gtnFX6glaCPE=",
+  "Source": "NewProject",
+  "BasePath": "_content/NewProject",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "NewProject/wwwroot",
+      "Source": "NewProject",
+      "ContentRoot": "/home/coolman/Projects/NewProject/wwwroot/",
+      "BasePath": "_content/NewProject",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/home/coolman/Projects/NewProject/wwwroot/1.webp",
+      "SourceId": "NewProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/coolman/Projects/NewProject/wwwroot/",
+      "BasePath": "_content/NewProject",
+      "RelativePath": "1.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/1.webp"
+    },
+    {
+      "Identity": "/home/coolman/Projects/NewProject/wwwroot/mark.jpg",
+      "SourceId": "NewProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/coolman/Projects/NewProject/wwwroot/",
+      "BasePath": "_content/NewProject",
+      "RelativePath": "mark.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/mark.jpg"
+    }
+  ]
+}

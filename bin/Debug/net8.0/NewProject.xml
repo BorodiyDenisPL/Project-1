@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NewProject</name>
+    </assembly>
+    <members>
+        <member name="T:NewProject.DataDB.AppDbContext">
+            <summary>
+            Kontekst bazy danych aplikacji.
+            </summary>
+        </member>
+        <member name="M:NewProject.DataDB.AppDbContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{NewProject.DataDB.AppDbContext})">
+            <summary>
+            Konstruktor kontekstu bazy danych aplikacji.
+            </summary>
+            <param name="options">Opcje kontekstu bazy danych.</param>
+        </member>
+        <member name="P:NewProject.DataDB.AppDbContext.Users">
+            <summary>
+            Zbiór danych użytkowników.
+            </summary>
+        </member>
+        <member name="P:NewProject.DataDB.AppDbContext.Articles">
+            <summary>
+            Zbiór danych artykułów.
+            </summary>
+        </member>
+        <member name="T:NewProject.Models.Article">
+            <summary>
+            Model danych artykułu.
+            </summary>
+        </member>
+        <member name="P:NewProject.Models.Article.Id">
+            <summary>
+            Unikalny identyfikator artykułu.
+            </summary>
+        </member>
+        <member name="P:NewProject.Models.Article.Title">
+            <summary>
+            Tytuł artykułu.
+            </summary>
+        </member>
+        <member name="P:NewProject.Models.Article.Content">
+            <summary>
+            Treść artykułu.
+            </summary>
+        </member>
+        <member name="T:NewProject.Models.User">
+            <summary>
+            Model danych użytkownika.
+            </summary>
+        </member>
+        <member name="P:NewProject.Models.User.Id">
+            <summary>
+            Unikalny identyfikator użytkownika.
+            </summary>
+        </member>
+        <member name="P:NewProject.Models.User.Username">
+            <summary>
+            Nazwa użytkownika.
+            </summary>
+        </member>
+        <member name="P:NewProject.Models.User.Password">
+            <summary>
+            Hasło użytkownika.
+            </summary>
+        </member>
+        <member name="P:NewProject.Models.User.Role">
+            <summary>
+            Rola użytkownika.
+            </summary>
+        </member>
+        <member name="T:NewProject.Models.UserLoginDto">
+            <summary>
+            Model danych do uwierzytelniania użytkownika.
+            </summary>
+        </member>
+        <member name="P:NewProject.Models.UserLoginDto.Username">
+            <summary>
+            Pobiera lub ustawia nazwę użytkownika.
+            </summary>
+        </member>
+        <member name="P:NewProject.Models.UserLoginDto.Password">
+            <summary>
+            Pobiera lub ustawia hasło użytkownika.
+            </summary>
+        </member>
+        <member name="T:NewProject.Models.UserRegisterDto">
+            <summary>
+            Model danych do rejestracji nowego użytkownika.
+            </summary>
+        </member>
+        <member name="P:NewProject.Models.UserRegisterDto.Username">
+            <summary>
+            Pobiera lub ustawia nazwę użytkownika.
+            </summary>
+        </member>
+        <member name="P:NewProject.Models.UserRegisterDto.Password">
+            <summary>
+            Pobiera lub ustawia hasło użytkownika.
+            </summary>
+        </member>
+    </members>
+</doc>

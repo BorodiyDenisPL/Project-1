@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "/home/coolman/Projects/NewProject/wwwroot/1.webp",
+      "PackagePath": "staticwebassets/1.webp"
+    },
+    {
+      "Id": "/home/coolman/Projects/NewProject/wwwroot/mark.jpg",
+      "PackagePath": "staticwebassets/mark.jpg"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.NewProject.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.NewProject.props",
+      "PackagePath": "build\\NewProject.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.NewProject.props",
+      "PackagePath": "buildMultiTargeting\\NewProject.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.NewProject.props",
+      "PackagePath": "buildTransitive\\NewProject.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

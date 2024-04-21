@@ -1,0 +1,10 @@
+body{
+    background-image: url('/FRONT/img/src.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+
+    color: hsl(314, 68%, 55%);
+}

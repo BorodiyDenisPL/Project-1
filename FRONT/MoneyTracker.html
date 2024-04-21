@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/FRONT/CSS/MoneyTracker.css">
+    <link rel="stylesheet" href="/FRONT/CSS/background.css">
+</head>
+<body>
+    <h1>MoneyTracker</h1>
+    <div class="buttons">  
+        <button class="neumorphic" onclick="redirectToPage('page1.html')">
+            <i class="fa-solid fa-plus"></i>
+            <span>add</span>
+        </button>
+        <button class="neumorphic" onclick="redirectToPage('page2.html')">
+            <i class="fa-solid fa-wallet"></i>
+            <span>Button 2</span>
+        </button>
+        <button class="neumorphic" onclick="redirectToPage('page3.html')">
+            <i class="fa-light fa-chart-mixed"></i>
+            <span>Button 3</span>
+        </button>
+        <button class="neumorphic" onclick="redirectToPage('page4.html')">
+            <i class="fa-light fa-atom"></i>
+            <span>Button 4</span>
+        </button>
+        <button class="neumorphic" onclick="redirectToPage('page5.html')">
+            <i class="fa-solid fa-chart-pie"></i>
+            <span>Button 5</span>
+        </button>
+        <button class="neumorphic" onclick="redirectToPage('button6/kurs.html')">
+            <i class="fa-light fa-disease"></i>
+            <span>Button 6</span>
+        </button>
+    </div>
+
+    <script>
+        function redirectToPage(page) {
+            window.location.href = page;
+        }
+    </script>
+</body>
+</html>
